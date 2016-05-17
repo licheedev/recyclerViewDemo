@@ -1,5 +1,5 @@
 ##简单实现RecyclerView嵌套RecyclerView
-*** Sina微博，Twitter等移动客户端通常列表中带有若干张图片***
+Sina微博，Twitter等移动客户端通常列表中带有若干张图片
 
 看上去效果类似于ListView嵌套GridView
 
