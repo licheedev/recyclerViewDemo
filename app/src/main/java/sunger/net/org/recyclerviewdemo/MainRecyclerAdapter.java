@@ -26,7 +26,6 @@ public class MainRecyclerAdapter extends RecyclerView.Adapter<MainRecyclerAdapte
             holder.mRecyclerView.getAdapter().notifyDataSetChanged();
         }
 
-
     }
 
     @Override
