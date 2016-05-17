@@ -23,7 +23,7 @@ public class GridAdapter extends RecyclerView.Adapter<GridAdapter.ViewHolder> {
 
     @Override
     public int getItemCount() {
-        return 8;
+        return 6;
     }
 
     public static class ViewHolder extends RecyclerView.ViewHolder {

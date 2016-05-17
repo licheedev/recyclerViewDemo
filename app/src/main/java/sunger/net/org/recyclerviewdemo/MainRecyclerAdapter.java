@@ -41,7 +41,7 @@ public class MainRecyclerAdapter extends RecyclerView.Adapter<MainRecyclerAdapte
             super(itemView);
             mButton = (AppCompatButton) itemView.findViewById(R.id.button);
             mRecyclerView = (RecyclerView) itemView.findViewById(R.id.recyclerView);
-            RecyclerView.LayoutManager manager = new GridLayoutManager(itemView.getContext(), 4);
+            RecyclerView.LayoutManager manager = new GridLayoutManager(itemView.getContext(), 3);
             manager.setAutoMeasureEnabled(true);
             mRecyclerView.setLayoutManager(manager);
         }

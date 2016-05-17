@@ -14,5 +14,5 @@ private RecyclerView mRecyclerView;
         mRecyclerView= (RecyclerView) findViewById(R.id.recyclerView);
         mRecyclerView.setLayoutManager(new LinearLayoutManager(this));
         mRecyclerView.setAdapter(new MainRecyclerAdapter());
-    }
+     }
 }
