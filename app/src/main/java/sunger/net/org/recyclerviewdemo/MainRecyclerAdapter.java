@@ -21,6 +21,7 @@ public class MainRecyclerAdapter extends RecyclerView.Adapter<MainRecyclerAdapte
     public void onBindViewHolder(ViewHolder holder, int position) {
         holder.mButton.setText("Item " + position);
         if(holder.mRecyclerView.getAdapter()==null) {
+
             holder.mRecyclerView.setAdapter(new GridAdapter());
         }else {
             holder.mRecyclerView.getAdapter().notifyDataSetChanged();
